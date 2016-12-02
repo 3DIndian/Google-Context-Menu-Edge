@@ -8,4 +8,4 @@ To Install this extension on MS Edge, follow the steps below:
 ##Select the folder you just downloaded - "Google Search" (not the folder with readme, just the folder inside it)
 ##Turn on the extension, Restart the browser, and click "Turn on Anyway" when prompted at the bottom
 
-If you face any trouble, contact me here: http://www.reddit.com/u/3DIndian
+If you face any trouble, contact me here: https://www.reddit.com/message/compose/?to=3DIndian
