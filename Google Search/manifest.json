@@ -1,0 +1,23 @@
+{
+    "author": "Aakash",
+    "background": {
+        "page": "background.html",
+        "persistent": true
+    },
+    "description": "Do you use Bing or DuckDuckGo as default, but sometimes still have to resort back to google? This extension will add 'Search with google' to context menu so as to search selected text easily with google when required",
+    "icons": {
+        "48": "icons/48.png",
+        "96": "icons/96.png"
+    },
+    "manifest_version": 2,
+    "name": "Google Search",
+    "permissions": [
+        "activeTab",
+        "contextMenus"
+    ],
+    "version": "0.1",
+    "-ms-preload": {
+        "backgroundScript": "backgroundScriptsAPIBridge.js",
+        "contentScript": "contentScriptsAPIBridge.js"
+    }
+}
