@@ -7,7 +7,7 @@ function onRequest(info, tab) {
 };
 
 chrome.contextMenus.create({
-	id: "bing_search",
+	id: "google_search",
 	title: "Search with Google",
 	"contexts":["selection"],
 	"onclick" : onRequest
