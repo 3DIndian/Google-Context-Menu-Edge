@@ -2,7 +2,7 @@
 function onRequest(info, tab) {
 	var selection = info.selectionText;
 //do something with the selection
-  var serviceCall = 'https://www.google.com/#q=' + selection;
+  var serviceCall = 'https://www.google.com/#q=' + encodeURIComponent(selection);
   chrome.tabs.create({url: serviceCall});
 };
 
