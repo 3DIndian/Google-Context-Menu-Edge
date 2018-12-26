@@ -1,5 +1,7 @@
 # Google-Context-Menu-Edge
 
+UPDATE: Since now edge supports Google search feature if the default search engine is Google, this extension is no longer needed for *most* cases. However, I will leave the repo unarchived in case anyone is interested in looking through the code.
+
 To Install this extension on MS Edge, follow the steps below:
 
 Download the Repo and extract it
